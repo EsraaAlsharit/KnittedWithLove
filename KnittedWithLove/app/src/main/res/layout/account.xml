@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_App">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/user"
+        android:background="@color/colorAccent"
+        >
+
+        <!--com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/top_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimary"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/accountbar"
+            /-->
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/listinfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center"
+            app:menu="@menu/accountinfo" />
+
+
+    </FrameLayout>
+
+</RelativeLayout>
+
+

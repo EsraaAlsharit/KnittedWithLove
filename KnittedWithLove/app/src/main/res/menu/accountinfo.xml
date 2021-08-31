@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="MY ACCOUNT">
+
+            <menu>
+    <item android:id="@+id/action_Addresses"
+        android:icon="@drawable/ic_place"
+        android:title="Addresses"/>
+
+    <item android:id="@+id/action_Payment"
+        android:icon="@drawable/ic_card"
+        android:title="Payment"/>
+
+    <item android:id="@+id/action_Profile"
+        android:icon="@drawable/ic_user"
+        android:title="Profile"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="SETTING">
+            <menu>
+    <item android:id="@+id/action_Language"
+        android:icon="@drawable/ic_language"
+        android:title="Language"/>
+
+                <item
+                    android:id="@+id/action_aboutUs"
+                    android:icon="@drawable/ic_shout"
+                    android:title="About us"
+                    />
+
+
+
+
+            </menu>
+        </item>
+    </group>
+
+
+
+
+
+        <item android:title="REACH OUT TO US">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item android:id="@+id/action_whatsapp"
+                    android:icon="@drawable/ic_whatsapp"
+                    android:title="Whatsapp"/>
+
+                <item android:id="@+id/action_instgram"
+                    android:icon="@drawable/ic_instagram"
+                    android:title="Instgram"/>
+
+                <item android:id="@+id/action_facebook"
+                    android:icon="@drawable/ic_facebook"
+                    android:title="Facebook"/>
+
+                <item android:id="@+id/action_twitter"
+                    android:icon="@drawable/ic_twitter"
+                    android:title="Twitter"/>
+                </group>
+            </menu>
+        </item>
+
+
+    <item android:id="@+id/action_signOut"
+        android:icon="@drawable/ic_exit"
+        android:title="Sign out"/>
+
+</menu>

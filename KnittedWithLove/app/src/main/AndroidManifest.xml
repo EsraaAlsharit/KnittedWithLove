@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.knittedwithlove">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Knitted With ♡"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Changepass"></activity>
+        <activity android:name=".ChangeAdd"></activity>
+        <activity android:name=".DetailView"></activity>
+        <activity android:name=".Item" />
+        <activity android:name=".Shoping" />
+        <activity android:name=".Addresses" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Profile" />
+        <activity android:name=".About_us" />
+        <activity android:name=".Requests" />
+        <activity android:name=".Wish_List" />
+        <activity android:name=".Orders" />
+        <activity android:name=".Account" />
+        <activity android:name=".Cart" />
+        <activity android:name=".Custom" />
+        <activity android:name=".Main_App" />
+        <activity android:name=".Home" />
+        <activity
+            android:name=".Main"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signinFragment"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".signupFragment"
+            android:theme="@style/SplashScreen" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
